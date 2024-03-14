@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'form_1.dart';
 
@@ -19,14 +20,21 @@ class form_3 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('$name, вам $age лет'),
+            Text(
+              '$name, вам $age лет',
+              style: TextStyle(
+                fontSize: 24,  
+                fontWeight: FontWeight.bold,  
+              ),
+            ),
             ElevatedButton(
               child: Text('Вернуться на главную'),
               onPressed: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => form_1())
+                    builder: (context) => form_1(),
+                  ),
                 );
               },
             ),
