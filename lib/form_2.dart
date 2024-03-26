@@ -19,7 +19,7 @@ class _form_2State extends State<form_2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Форма 2'),
+        title: Text('Вторая страница'),
       ),
       body: Center(
         child: Padding(
@@ -48,7 +48,7 @@ class _form_2State extends State<form_2> {
                     suffixIcon: IconButton(
                       icon: Icon(Icons.calendar_today),
                       onPressed: () {
-                        showDatePicker(
+                        showDatePicker( // Выбор даты
                           context: context,
                           initialDate: DateTime.now(),
                           firstDate: DateTime(1900),

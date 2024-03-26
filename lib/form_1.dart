@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'form_2.dart';
-import 'package:flutter/services.dart';  // Import the services library for TextInputFormatter
+import 'package:flutter/services.dart';  
 
 class form_1 extends StatelessWidget {
-  TextEditingController _nameController = TextEditingController();
+  TextEditingController _nameController = TextEditingController(); 
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Форма 1'),
+        title: Text('Первая страница'),
       ),
       body: Center(
         child: Column(

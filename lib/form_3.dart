@@ -14,7 +14,7 @@ class form_3 extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Форма 3'),
+        title: Text('Третья страница'),
       ),
       body: Center(
         child: Column(
